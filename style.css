@@ -1,19 +1,21 @@
 body{
   /* background-color: lightgreen; */
-  background-image: url("paqkka1.svg");
+ /* background-image:url("paqkka1.svg");
   /* height: 150px; */
+  background-image: linear-gradient(to right,rgb(198, 186, 186),rgb(132, 100, 236));
+
 }
 table, th, td {
-    border: 2px solid darkgreen;
+    border: 2px solid rgb(98, 24, 135);
     padding: 10px;
   }
   b{
     font-size: 25px;
-    color: darkblue;
+    color: rgb(0, 0, 5);
   }
   th{
     font-size: 20px;
-    color: darkslateblue
+    color: rgb(3, 1, 13)
   }
 .input{
   /* width:10%; */
@@ -25,7 +27,7 @@ table, th, td {
   padding-right: 50px;
   padding-left: 5px;
   background-color: lightcyan;
-  color: red;
+  color: rgb(37, 13, 92);
   
 }
 
@@ -35,7 +37,7 @@ table, th, td {
 }
 h1{
 
-  color: blue;
+  color: rgb(2, 2, 14);
   font-size: 30px;
   
 }
@@ -48,8 +50,8 @@ h1{
   position: relative;
   padding: 10px 24px;
   font-size: 18px;
-  color: rgb(193, 163, 98);
-  border: 2px solid rgb(193, 163, 98);
+  color: rgb(16, 12, 2);
+  border: 2px solid rgb(16, 12, 4);
   border-radius: 34px;
   background-color: transparent;
   font-weight: 600;
@@ -69,7 +71,7 @@ h1{
   border-radius: inherit;
   scale: 0;
   z-index: -1;
-  background-color: rgb(193, 163, 98);
+  background-color: rgb(138, 221, 244);
   transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
 }
 
@@ -78,11 +80,11 @@ h1{
 }
 
 .button:hover {
-  color: #212121;
+  color: #1b0404;
   scale: 1.1;
   box-shadow: 0 0px 20px rgba(193, 163, 98,0.4);
-  background-color: cyan;
-  border: 2px solid red;
+  background-color: lightcyan;
+  border: 2px solid rgb(42, 17, 82);
 }
 
 .button:active {
@@ -91,6 +93,7 @@ h1{
 .flex{
   display: flex;
   flex-wrap: wrap;
+  background-image: linear-gradient(to right,rgb(198, 186, 186),rgb(132, 100, 236));
 }
 .magic{
   float: left;
@@ -98,8 +101,9 @@ h1{
   margin-left: 100px;
   margin-top: 75px;
   text-align: center;
-  border: 5px solid black;  
-  box-shadow: 10px 10px 108px darkgreen;
+  border: 5px solid black; 
+  background-image: linear-gradient(to right,rgb(198, 186, 186),rgb(132, 100, 236));
+   ;
 }
 .cookie{
   /* height: 500px;
@@ -111,7 +115,7 @@ h1{
 }
 @media screen and (max-width: 666px) {
   body {
-    background-color: red;
+    background-color: rgb(37, 18, 75);
     background-image: none;
   }
   .magic{
